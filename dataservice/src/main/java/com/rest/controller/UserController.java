@@ -25,7 +25,6 @@ public class UserController {
 		user.setUserName(dataSource.getDbName());
 		user.setPassword(dataSource.getDbURL());
 		System.out.println("Checking 1st commit");
-		System.out.println("Checking 2nd commit");
 		return user;
 	}
 	
