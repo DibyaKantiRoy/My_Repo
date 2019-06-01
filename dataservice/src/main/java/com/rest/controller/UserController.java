@@ -24,6 +24,7 @@ public class UserController {
 		User user = new User();
 		user.setUserName(dataSource.getDbName());
 		user.setPassword(dataSource.getDbURL());
+		System.out.println("Checking 1st commit");
 		return user;
 	}
 	
