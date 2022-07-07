@@ -22,7 +22,7 @@ public class UserController {
 	public User getDummyUser(){
 		DataSource dataSource = ApplicationContextProvider.getApplicationContext().getBean("datasource", DataSource.class);
 		User user = new User();
-		user.setUserName(dataSource.getDbName());
+		user.setUserName("Dibya");
 		user.setPassword(dataSource.getDbURL());
 		return user;
 	}
